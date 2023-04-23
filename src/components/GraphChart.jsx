@@ -8,7 +8,7 @@ function GraphChart({timeSeriesData, toCurrency}){
       label: toCurrency,
       data: timeSeriesData
     }
-  ], []
+  ], [timeSeriesData, toCurrency]
 )
 
 const primaryAxis = useMemo(
